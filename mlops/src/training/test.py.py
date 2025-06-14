@@ -142,9 +142,9 @@ plot_roc_curve(
 # COMMAND ----------
 
 
-connection_string = "DefaultEndpointsProtocol=https;AccountName=datapreprocesseing;AccountKey=pygFOSK/+wQge0aTj+CPzjmq0o1xfQDdWHJDccZIvSqCT7dFjKBiHcbZybhuWd29y/ZyofmzCQ8O+AStEuJnKA==;EndpointSuffix=core.windows.net"
+connection_string = "your_connection_string"
 
-container_name = "models"
+container_name = "your_container_name"
 
 model_df = list_models_in_container(connection_string, container_name)
 display(model_df)
