@@ -72,3 +72,7 @@ project_mimic/
 │       ├── inference_run.py
 │       ├── inference_pipeline.py
 │       └── prediction_accuracy.py
+
+
+
+if you using this code pass your  accesskey and blob account names in src/pre_processing/Storage_connections.py
