@@ -45,7 +45,7 @@ The ML workflow includes:
  Azure Databricks / Azure Blob Storage / Delta Lake
 
 ## 📁 Repository Structure
-'''project_mimic/
+('''project_mimic/
 └── mlops/
 ├── cicd/                         # (Planned) CI/CD scripts (not implemented yet)
 ├── mortality_app/               # Frontend app (currently under development)
@@ -71,7 +71,7 @@ The ML workflow includes:
 │       ├── init.py
 │       ├── inference_run.py
 │       ├── inference_pipeline.py
-│       └── prediction_accuracy.py'''
+│       └── prediction_accuracy.py''')
 
 
 
