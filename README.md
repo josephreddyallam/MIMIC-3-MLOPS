@@ -47,14 +47,14 @@ The ML workflow includes:
 ## Repositary Structure
 project_mimic/
 └── mlops/
-├── cicd/                          # (Planned) CI/CD scripts (not implemented yet)
-├── mortality_app/                # Frontend app (currently under development)
-├── scripts/                      # Shared utility functions
+├── cicd/                         # (Planned) CI/CD scripts (not implemented yet)
+├── mortality_app/               # Frontend app (currently under development)
+├── scripts/                     # Shared utility functions
 │   ├── init.py
 │   ├── azure_blob_utils.py
 │   ├── feature_utils.py
 │   └── model_utils.py
-├── src/                          # Source code for training, preprocessing, inference
+├── src/                         # Source code for training, preprocessing, inference
 │   ├── training/
 │   │   ├── run.py
 │   │   ├── Setup.py
