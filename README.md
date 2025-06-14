@@ -44,8 +44,8 @@ The ML workflow includes:
  Python / Pandas / PySpark / XGBoost / Sklearn / Optuna 
  Azure Databricks / Azure Blob Storage / Delta Lake
 
-## Repositary Structure
-project_mimic/
+## 📁 Repository Structure
+'''project_mimic/
 └── mlops/
 ├── cicd/                         # (Planned) CI/CD scripts (not implemented yet)
 ├── mortality_app/               # Frontend app (currently under development)
@@ -71,7 +71,7 @@ project_mimic/
 │       ├── init.py
 │       ├── inference_run.py
 │       ├── inference_pipeline.py
-│       └── prediction_accuracy.py
+│       └── prediction_accuracy.py'''
 
 
 
