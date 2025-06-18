@@ -68,30 +68,34 @@ This layered approach ensures:
 ---
 
 ## 📁 Repository Structure
-##project_mimic/
+<pre>
+<code>
+project_mimic/
 └── mlops/
-├── cicd/                       # (Planned) CI/CD scripts
-├── mortality_app/              # Streamlit-based frontend (under development)
-├── scripts/                    # Shared utility functions
-│   ├── init.py
-│   ├── azure_blob_utils.py
-│   ├── feature_utils.py
-│   └── model_utils.py
-├── src/
-│   ├── training/
-│   │   ├── run.py
-│   │   ├── setup.py
-│   │   ├── save_models.py
-│   │   ├── model_utils.py
-│   │   ├── model_train.py
-│   │   ├── load_latest_model.py
-│   │   └── list_models_in_container.py
-│   ├── pre_processing/
-│   │   ├── synthetic_data_generation.py
-│   │   ├── Storage_connections.py
-│   │   └── preprocessing.py
-│   └── inference/
-│       ├── init.py
-│       ├── inference_run.py
-│       ├── inference_pipeline.py
-│       └── prediction_accuracy.py##
+    ├── cicd/                       # (Planned) CI/CD scripts
+    ├── mortality_app/              # Streamlit-based frontend (under development)
+    ├── scripts/                    # Shared utility functions
+    │   ├── __init__.py
+    │   ├── azure_blob_utils.py
+    │   ├── feature_utils.py
+    │   └── model_utils.py
+    ├── src/
+    │   ├── training/
+    │   │   ├── run.py
+    │   │   ├── setup.py
+    │   │   ├── save_models.py
+    │   │   ├── model_utils.py
+    │   │   ├── model_train.py
+    │   │   ├── load_latest_model.py
+    │   │   └── list_models_in_container.py
+    │   ├── pre_processing/
+    │   │   ├── synthetic_data_generation.py
+    │   │   ├── Storage_connections.py
+    │   │   └── preprocessing.py
+    │   └── inference/
+    │       ├── __init__.py
+    │       ├── inference_run.py
+    │       ├── inference_pipeline.py
+    │       └── prediction_accuracy.py
+</code>
+</pre>
