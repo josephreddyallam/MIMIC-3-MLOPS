@@ -99,3 +99,32 @@ project_mimic/
     │       └── prediction_accuracy.py
 </code>
 </pre>
+
+Provide:
+- `AZURE_STORAGE_ACCOUNT_NAME`
+- `AZURE_STORAGE_ACCESS_KEY`
+
+---
+
+## 📌 Future Work
+
+- ✅ Model inference and UI via **Streamlit** (WIP)
+- 🧪 Implement CI/CD using GitHub Actions
+- 📦 Package the entire pipeline with Docker & deployment options
+
+---
+
+## 📚 References
+
+- [MIMIC-III Dataset](https://physionet.org/content/mimiciii/1.4/)
+- [Azure Databricks](https://azure.microsoft.com/en-us/products/databricks/)
+
+---
+
+## 🙋‍♂️ Author
+
+**Joseph Reddy**  
+_Data Engineer Intern | Azure & MLOps Enthusiast_  
+🔗 [GitHub](https://github.com/josephreddyallam)
+
+---
