@@ -55,7 +55,7 @@ def clean_synthetic_data(df_synthetic, spark_session, clean_path):
     for col in categorical_cols:
         df[col].fillna(df[col].mode().iloc[0], inplace=True)
 
-    # ➕ Outlier Capping (IQR Method)
+    #  Outlier Capping (IQR Method)
     for col in numerical_cols:
         if col not in binary_cols:
             Q1 = df[col].quantile(0.25)
@@ -66,7 +66,7 @@ def clean_synthetic_data(df_synthetic, spark_session, clean_path):
             df[col] = np.where(df[col] < lower_bound, lower_bound,
                                np.where(df[col] > upper_bound, upper_bound, df[col]))
 
-    # ➕ Skewness Handling
+    #  Skewness Handling
     for col in numerical_cols:
         if col not in binary_cols:
             skew_val = df[col].skew()
