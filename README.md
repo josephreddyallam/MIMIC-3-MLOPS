@@ -1,16 +1,16 @@
-# 🏥 MIMIC-3-MLOPS: Cloud-Based Mortality Prediction
+# MIMIC-3-MLOPS: Cloud-Based Mortality Prediction
 
 This project is my first end-to-end MLOps solution focused on predicting **hospital mortality** using the publicly available **MIMIC-III demo dataset**. It is built entirely in a cloud environment using **Azure Databricks** and follows modern data engineering and ML best practices.
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 Develop a scalable, modular, and production-ready machine learning pipeline to predict mortality risk in ICU patients using real clinical data.
 
 ---
 
-## 🧱 Architecture: Medallion Pattern
+##  Architecture: Medallion Pattern
 
 The project is structured using the **Medallion Architecture**:
 
@@ -59,7 +59,7 @@ This layered approach ensures:
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Languages**: Python, PySpark
 - **Libraries**: pandas, scikit-learn, XGBoost, Optuna
@@ -106,22 +106,22 @@ Provide:
 
 ---
 
-## 📌 Future Work
+##  Future Work
 
-- ✅ Model inference and UI via **Streamlit** (WIP)
-- 🧪 Implement CI/CD using GitHub Actions
-- 📦 Package the entire pipeline with Docker & deployment options
+- Model inference and UI via **Streamlit** (WIP)
+- Implement CI/CD using GitHub Actions
+- Package the entire pipeline with Docker & deployment options
 
 ---
 
-## 📚 References
+## References
 
 - [MIMIC-III Dataset](https://physionet.org/content/mimiciii/1.4/)
 - [Azure Databricks](https://azure.microsoft.com/en-us/products/databricks/)
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Joseph Reddy**  
 _Data Engineer Intern | Azure & MLOps Enthusiast_  
