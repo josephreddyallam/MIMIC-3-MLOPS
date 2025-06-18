@@ -11,8 +11,8 @@ spark_df = spark.read.format("delta").load("dbfs:/tmp/synthetic_ctgan_data")
 df = spark_df.toPandas()
 
 # Step 2: Load latest model from Azure
-connection_string = "DefaultEndpointsProtocol=https;AccountName=datapreprocesseing;AccountKey=pygFOSK/+wQge0aTj+CPzjmq0o1xfQDdWHJDccZIvSqCT7dFjKBiHcbZybhuWd29y/ZyofmzCQ8O+AStEuJnKA==;EndpointSuffix=core.windows.net"
-container_name = "models"
+connection_string = ""
+container_name = ""
 model, expected_features = load_model(connection_string, container_name)
 
 # Step 3: Run inference
