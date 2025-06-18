@@ -1,7 +1,7 @@
 # Databricks notebook source
 # Azure Blob Storage configuration
-blob_account = "datapreprocesseing"
-access_key = "pygFOSK/+wQge0aTj+CPzjmq0o1xfQDdWHJDccZIvSqCT7dFjKBiHcbZybhuWd29y/ZyofmzCQ8O+AStEuJnKA=="
+blob_account = ""
+access_key = ""
 
 # Set Spark config to authenticate with Azure Blob Storage
 spark.conf.set(
