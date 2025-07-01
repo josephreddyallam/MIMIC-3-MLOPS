@@ -14,9 +14,9 @@ Develop a scalable, modular, and production-ready machine learning pipeline to p
 
 The project is structured using the **Medallion Architecture**:
 
-- ** Bronze Layer**: Raw ingestion of all 26 MIMIC-III CSV files.
-- ** Silver Layer**: Cleaned, validated, and joined datasets.
-- ** Gold Layer**: Feature-enriched, model-ready data used for training and inference.
+-  Bronze Layer : Raw ingestion of all 26 MIMIC-III CSV files.
+-  Silver Layer : Cleaned, validated, and joined datasets.
+-  Gold Layer   : Feature-enriched, model-ready data used for training and inference.
 
 This layered approach ensures:
 - Data quality
