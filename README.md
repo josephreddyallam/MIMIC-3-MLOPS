@@ -14,9 +14,9 @@ Develop a scalable, modular, and production-ready machine learning pipeline to p
 
 The project is structured using the **Medallion Architecture**:
 
-- **🥉 Bronze Layer**: Raw ingestion of all 26 MIMIC-III CSV files.
-- **🥈 Silver Layer**: Cleaned, validated, and joined datasets.
-- **🥇 Gold Layer**: Feature-enriched, model-ready data used for training and inference.
+- ** Bronze Layer**: Raw ingestion of all 26 MIMIC-III CSV files.
+- ** Silver Layer**: Cleaned, validated, and joined datasets.
+- ** Gold Layer**: Feature-enriched, model-ready data used for training and inference.
 
 This layered approach ensures:
 - Data quality
@@ -25,26 +25,26 @@ This layered approach ensures:
 
 ---
 
-## 🔄 Machine Learning Workflow
+##  Machine Learning Workflow
 
-### 1️⃣ Data Preprocessing
+### 1. Data Preprocessing
 - Missing value handling
 - One-hot and label encoding
 - Outlier capping
 - Scaling and skew correction
 
-### 2️⃣ Feature Engineering
+### 2. Feature Engineering
 - Aggregation of vitals and labs
 - Length of stay and ED duration features
 - Frequency encoding of diagnosis codes
 - Comorbidity flags (e.g., Diabetes, Hypertension)
 
-### 3️⃣ Model Training
+### 3. Model Training
 - Algorithms: **Logistic Regression** and **XGBoost**
 - Hyperparameter tuning via **Optuna**
 - Evaluation metrics: Accuracy, AUC-ROC, Classification Report
 
-### 4️⃣ Inference Pipeline
+### 4. Inference Pipeline
 - Load trained model and expected features from **Azure Blob Storage**
 - Apply preprocessing to new patient data
 - Generate real-time mortality predictions
